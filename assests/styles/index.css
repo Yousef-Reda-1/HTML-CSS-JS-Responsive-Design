@@ -80,7 +80,7 @@ header .login form>div {
     font-size: 14px;
 }
 
-header .login button {
+header .login a.special {
     display: block;
     width: 80%;
     padding: 15px 20px;
@@ -91,9 +91,12 @@ header .login button {
     transition: all 0.3s linear;
     font-size: 16px;
     font-weight: bold;
+    background-color: white;
+    color: black;
 }
 
-header .login button:hover {
+header .login a.special:hover {
+    text-decoration: none;
     background-color: transparent;
     color: white;
 }
@@ -112,7 +115,7 @@ header .login p span {
         width: 70%;
     }
 
-    header .login form>div span{
+    header .login form>div span {
         font-size: 11px;
     }
 
